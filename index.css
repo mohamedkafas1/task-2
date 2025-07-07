@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #0400f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  background-color: #ffbd06;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img {
+  width: 80%;
+  max-width: 300px;
+}
+
+.right {
+  flex: 1;
+  padding: 40px;
+}
+
+.right h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #111;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+form label {
+  font-size: 14px;
+  margin-top: 20px;
+  display: block;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.sign-in {
+  width: 100%;
+  padding: 12px;
+  background-color: #0063f7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.sign-in:hover {
+  background-color: #014df0;
+}
+
+.create {
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.create:hover {
+  background-color: #f3f3f3;
+}
